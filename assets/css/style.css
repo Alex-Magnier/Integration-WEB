@@ -1,0 +1,52 @@
+:root {
+  --burbery-color: #60242d;
+  --white-color: #f6f1e7;
+  --black-color: #26271f;
+  --yellow-color: #f2d59d;
+  --font-berkshire: "Berkshire Swash", cursive, serif;
+  --font-arimo: "Arimo", sans-serif;
+  --font-arial: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white-color);
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: var(--burbery-color);
+  display: flex;
+  align-items: center;
+  padding: 1% 5%;
+  gap: 45%;
+}
+
+header h1 {
+  font-family: var(--font-berkshire);
+  font-size: 50px;
+  color: var(--white-color);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 60px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: var(--white-color);
+  font-size: 22px;
+  font-family: var(--font-arial);
+  text-decoration: none;
+}
